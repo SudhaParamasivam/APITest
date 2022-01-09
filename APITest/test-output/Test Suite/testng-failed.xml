@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="methods" name="Failed suite [Test Suite]" guice-stage="DEVELOPMENT" verbose="2">
+  <test thread-count="2" parallel="methods" name="Compare temperature(failed)" verbose="2">
+    <classes>
+      <class name="TestPack.CompareResult">
+        <methods>
+          <include name="openUrl"/>
+          <include name="TempCompare" invocation-numbers="0 1 2 3 4 5"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- TestPack.CompareResult -->
+    </classes>
+  </test> <!-- Compare temperature(failed) -->
+</suite> <!-- Failed suite [Test Suite] -->

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-08T20:00:39 IST" name="Default suite" finished-at="2022-01-08T20:01:33 IST" duration-ms="53525">
+    <groups>
+    </groups>
+    <test started-at="2022-01-08T20:00:39 IST" name="Default test" finished-at="2022-01-08T20:01:33 IST" duration-ms="53525">
+      <class name="TestPack.CompareResult">
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:TestPack.CompareResult@6e6f2380]" started-at="2022-01-08T20:00:39 IST" name="openUrl" finished-at="2022-01-08T20:00:42 IST" duration-ms="3120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="TempCompare(java.lang.String)[pri:0, instance:TestPack.CompareResult@6e6f2380]" started-at="2022-01-08T20:00:43 IST" name="TempCompare" data-provider="cityData" finished-at="2022-01-08T20:00:52 IST" duration-ms="9333" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Salem]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TempCompare -->
+        <test-method signature="TempCompare(java.lang.String)[pri:0, instance:TestPack.CompareResult@6e6f2380]" started-at="2022-01-08T20:00:52 IST" name="TempCompare" data-provider="cityData" finished-at="2022-01-08T20:00:59 IST" duration-ms="7296" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Namakkal]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TempCompare -->
+        <test-method signature="TempCompare(java.lang.String)[pri:0, instance:TestPack.CompareResult@6e6f2380]" started-at="2022-01-08T20:00:59 IST" name="TempCompare" data-provider="cityData" finished-at="2022-01-08T20:01:06 IST" duration-ms="7085" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Erode]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TempCompare -->
+        <test-method signature="TempCompare(java.lang.String)[pri:0, instance:TestPack.CompareResult@6e6f2380]" started-at="2022-01-08T20:01:06 IST" name="TempCompare" data-provider="cityData" finished-at="2022-01-08T20:01:14 IST" duration-ms="7193" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Karur]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TempCompare -->
+        <test-method signature="TempCompare(java.lang.String)[pri:0, instance:TestPack.CompareResult@6e6f2380]" started-at="2022-01-08T20:01:14 IST" name="TempCompare" data-provider="cityData" finished-at="2022-01-08T20:01:21 IST" duration-ms="7677" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chennai]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TempCompare -->
+        <test-method signature="TempCompare(java.lang.String)[pri:0, instance:TestPack.CompareResult@6e6f2380]" started-at="2022-01-08T20:01:21 IST" name="TempCompare" data-provider="cityData" finished-at="2022-01-08T20:01:29 IST" duration-ms="7416" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Delhi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TempCompare -->
+        <test-method is-config="true" signature="close()[pri:0, instance:TestPack.CompareResult@6e6f2380]" started-at="2022-01-08T20:01:29 IST" name="close" finished-at="2022-01-08T20:01:33 IST" duration-ms="4165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- TestPack.CompareResult -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
